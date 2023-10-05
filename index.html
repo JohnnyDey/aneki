@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+  <script src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container" style="padding-top: 20px">
+    <div class="row row-cols-1 justify-content-end gy-3">
+      <div class="col d-flex justify-content-center" >
+        <img src="logoAneki.jpg" style="width: 500px">
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="form-check">
+          <input type="checkbox" checked class="form-check-input" id="speechOn">
+          <label for="speechOn" class="form-check-label" >Включить озвучку</label>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <button onclick="mashUp()" class="btn btn-primary">Зарандомить анек!</button>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <textarea disabled id="value" style="width:1200px;">Сейчас тут будет ржака!))))</textarea>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
